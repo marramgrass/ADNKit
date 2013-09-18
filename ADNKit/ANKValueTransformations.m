@@ -71,5 +71,9 @@
 	return [[self dateFormatter] stringFromDate:date];
 }
 
+- (id)JSONObjectFromNSTaggedDate:(NSDate *)date {
+	return [self JSONObjectFromNSDate:date];
+}
+
 
 @end
